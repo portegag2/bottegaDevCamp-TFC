@@ -1,0 +1,14 @@
+:root {
+    --bg-black: #000000;      /* Black */
+    --bg-dark-blue-navy-color: #1e1f29;      /* Dark blue/navy */
+    --bg-dark-gray: #36383f;    /* Dark gray */   
+    --gray-color: #acacac;      /* Light gray */
+    --gray-darker-color: #7b7e8b; /* Darker gray */
+    --green-color: #4bce79;   /* Green */
+    --yellow-color: #ece187;  /* Yellow */
+}
+
+body {
+    margin: 0;
+    width: 1012px;
+}
