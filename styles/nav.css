@@ -9,6 +9,7 @@
 .nav-wrapper > .nav-left-column {
     width: 132px;
     padding: 20px;
+    padding: 20px 0px 20px 20px;
 }
 
 .nav-wrapper > .nav-left-column img {
@@ -19,6 +20,7 @@
 .nav-wrapper > .nav-center-column {
     display: flex;
     flex-direction: column;
+    margin-left: -45px;
 }
 .nav-wrapper > .nav-center-column > .nav-center-top{
     color: var(--yellow-color);
@@ -74,10 +76,14 @@
     font-family: "Lato", sans-serif;
     font-weight: 900;
     font-style: normal;
+    display: flex;
+    gap: 8px;
 }
 
 .nav-wrapper > .nav-right-column > .nav-right-button i {
     color: var(--green-color);
+    font-size: 1rem;
+    margin-top: 3px;
 }
 
 .nav-wrapper > .nav-right-column > .nav-right-search i {

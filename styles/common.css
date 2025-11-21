@@ -6,9 +6,18 @@
     --gray-darker-color: #7b7e8b; /* Darker gray */
     --green-color: #4bce79;   /* Green */
     --yellow-color: #ece187;  /* Yellow */
+    --blue-bright: #78daf6;  /* Bright Blue */
+    --hero-font-top: #f7f7f8;  /* Hero font color */
+    --hero-font-bottom: #b3b3b3; /* Hero font bottom color */
+    --color-white: #ffffff;    /* White */
 }
 
 body {
     margin: 0;
     width: 1012px;
+    font-family: "Lato", sans-serif;
+}
+
+.blue-text {
+    color: var(--blue-bright);
 }
