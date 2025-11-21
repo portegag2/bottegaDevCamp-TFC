@@ -1,0 +1,31 @@
+.features-section {
+    display: flex
+}
+
+.features-section > .features-section-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--color-white);
+    background-color: var(--bg-dark-gray);
+}
+
+.features-section > .features-section-wrapper  p {
+    border: 1px solid var(--features_border-color);
+    /*border-width: 2px 2px 2px 0px;*/
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+}
+
+.features-section > .features-section-wrapper > p .uppercase {
+    font-size: 1.25em;
+    font-weight: 900; 
+}
+
+.spacer70 {
+    background-color: var(--bg-black);
+}
