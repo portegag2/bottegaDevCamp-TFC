@@ -9,15 +9,20 @@
 
 .hero-section > .hero-section-left {
     color: var(--hero-font-top);
-    font-size: 1.75em;
+    
     font-weight: 300;
     padding-left: 50px;
-    padding-right: 55px;
+    padding-right: 10%;
+}
+
+.hero-section > .hero-section-left p:first-of-type{
+    font-size: 2em;
+    margin-top: 7%;
 }
 
 .hero-section-left p:last-of-type {
   color: var(--hero-font-bottom);
-  font-size: 0.80em;
+  font-size: 1.75em;
   font-weight: 400;
   margin: 0px;
   line-height: 1.5;  
@@ -33,7 +38,7 @@
     font-weight: 700;
     cursor: pointer;
     border-radius: 5px;
-    font-size: 0.9em;
+    font-size: 2em;
 }
 
 .hero-section > .hero-section-left > .hero-section-left-btn-wrapper > .btn-green {
@@ -54,7 +59,7 @@
 
 .hero-section > .hero-section-right {
     color: var(--color-white);
-    width: 80%
+    width: 90%
 }
 
 .hero-section > .hero-section-right p {
