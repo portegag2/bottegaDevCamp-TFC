@@ -1,6 +1,6 @@
 .hero-section {
     display: flex;
-    box-shadow: -184px -194px 272px 176px rgba(11,9,9,0.99) inset;
+    box-shadow: -50rem -18rem 16rem 17.5rem rgba(11,9,9,0.80) inset;
     /* -webkit-box-shadow: -156px -120px 182px 0px rgba(11,9,9,0.86) inset;
     -moz-box-shadow: -156px -120px 182px 0px rgba(11,9,9,0.86) inset; */
     width: 100%;
@@ -16,13 +16,14 @@
 }
 
 .hero-section > .hero-section-left p:first-of-type{
-    font-size: 2em;
+    font-size: 2.25em;
     margin-top: 7%;
+    margin-bottom: 7%;
 }
 
 .hero-section-left p:last-of-type {
   color: var(--hero-font-bottom);
-  font-size: 1.75em;
+  font-size: 2em;
   font-weight: 400;
   margin: 0px;
   line-height: 1.5;  
@@ -31,7 +32,7 @@
 .hero-section > .hero-section-left > .hero-section-left-btn-wrapper  span {
     display: inline-block;
     margin-top: 40px;
-    margin-right: 15px;
+    margin-right: 5%;
     color: var(--color-white);
     padding: 20px;
     border-radius: 25px;
