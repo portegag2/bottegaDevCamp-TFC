@@ -33,7 +33,7 @@
 
 .nav-wrapper > .nav-center-column > .nav-center-bottom{
     display: flex;
-    gap: 25px;
+    gap: 25%;
 }
 
 .nav-wrapper > .nav-center-column > .nav-center-bottom > .nav-center-bottom-left{
@@ -41,7 +41,7 @@
     font-family: "Lato", sans-serif;
     font-weight: 900;
     font-style: normal;
-    gap: 10px;
+    gap: 5%;
 }
 
 .nav-wrapper > .nav-center-column > .nav-center-bottom > .nav-center-bottom-right{
